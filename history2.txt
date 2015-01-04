@@ -1,0 +1,332 @@
+library(knitr)
+library("rmarkdown", lib.loc="C:/Program Files/R/R-3.1.1/library")
+install.packages("rmarkdown")
+ls()
+submit()
+pm 4 seas 19 schumaker road   come in from woodward and secratairiat..  4 seasons community  go down woodward road
+for (i in 1:100) {
+print i
+}
+for (i in 1:100) {
+i
+}
+for (i in 1:100) {
+print(i)
+}
+CracklePop <- function (
+for (i in 1:100) {
+print(i)
+}
+)
+CracklePop <- function() {
+for (i in 1:100) {
+print(i)
+}
+}
+CracklePop
+CracklePop
+CracklePop()
+CracklePop <- function() {
+for (i in 1:100) {
+out <- i
+print(out)
+}
+}
+CracklePop()
+CracklePop <- function() {
+for (i in 1:100) {
+out <- i
+if (i %% 3 == 0 ){ out <- "Crackle" }
+print(out)
+}
+}
+CracklePop()
+CracklePop <- function() {
+for (i in 1:100) {
+out <- i
+if (i %% 3 == 0 ){ out <- "Crackle" }
+if (i %% 5 == 0 ){ out <- "Pop" }
+if (i %% 3 == 0 & i %% 5 == 0 ){ out <- "CracklePop" }
+print(out)
+}
+}
+CracklePop()
+q()
+library(devtools)
+install_github("hrbrmstr/ggcounty")
+library(ggcounty)
+install.packages("devtools")
+library(devtools)
+install_github("hrbrmstr/ggcounty")
+library(ggcounty)
+?ggcounty
+ggcounty("Maine")
+?ggplot2
+install.packages("ggplot2")
+ggcounty("Maine")
+install.packages("sp")
+install.packages("maptools")
+ggcounty("Maine")
+?maps
+install.packages("maps")
+?maps
+?map
+?ggplot
+# because the projection is rectangular, these are not true areas on the globe.
+m = map("state", fill = TRUE, plot = FALSE)
+area.map(m)
+area.map(m, ".*dakota")
+area.map(m, c("North Dakota", "South Dakota"))
+if(require(mapproj)) {
+# true areas on the globe
+m = map("state", proj="bonne", param=45, fill=TRUE, plot=FALSE)
+# North Dakota is listed as 70,704 square miles
+area.map(m, "North Dakota")
+}
+library(maps)
+# because the projection is rectangular, these are not true areas on the globe.
+m = map("state", fill = TRUE, plot = FALSE)
+area.map(m)
+area.map(m, ".*dakota")
+area.map(m, c("North Dakota", "South Dakota"))
+if(require(mapproj)) {
+# true areas on the globe
+m = map("state", proj="bonne", param=45, fill=TRUE, plot=FALSE)
+# North Dakota is listed as 70,704 square miles
+area.map(m, "North Dakota")
+}
+library("ggplot2", lib.loc="C:/Program Files/R/R-3.1.2/library")
+library("ggcounty", lib.loc="C:/Program Files/R/R-3.1.2/library")
+install.packages(c("manipulate", "mgcv"))
+unique(c(new, .Library.site, .Library))
+.libPaths()
+.libPaths("C:/Program Files/R/R-3.1.2/library")
+.libPaths("C:/Program Files/R/R-3.1.*/library")
+install.packages(c("BH", "boot", "caTools", "class", "cluster", "codetools", "devtools", "digest", "formatR", "GGally", "highr", "httpuv", "httr", "KernSmooth", "knitr", "labeling", "manipulate", "maps", "markdown", "MASS", "Matrix", "mgcv", "nlme", "RColorBrewer", "Rcpp", "RCurl", "reshape2", "RGtk2", "RJSONIO", "shiny", "swirl", "testthat", "xtable", "yaml"))
+install.packages(c("BH", "digest", "highr", "httpuv", "httr", "jsonlite", "knitr", "magrittr", "manipulate", "mgcv", "quantmod", "R6", "RColorBrewer", "RCurl", "reshape2", "rmarkdown", "RSQLite", "sqldf", "tidyr"), lib="C:/Program Files/R/R-3.1.1/library")
+.libPaths("C:/Program Files/R/R-3.1.2/library")
+library("devtools", lib.loc="C:/Program Files/R/R-3.1.2/library")
+install_github("choroplethr", "trulia")
+library(choroplethr)
+?choro
+?choroplethr
+?county_choroplethr
+?county_choropleth
+choroplethr_acs(tableId="B19301", lod="state")
+?choroplethr_acs
+choroplethr_acs(tableId="B19301", "state")
+?api.key.install
+api.key.install("26631a294aa8a3c9dd7ff362f294feee0660d93e")
+library(acs)
+api.key.install("26631a294aa8a3c9dd7ff362f294feee0660d93e")
+choroplethr_acs(tableId="B19301", "state")
+install.packages("choroplethrMaps")
+library(choroplethrMaps)
+choroplethr_acs(tableId="B19301", "state")
+choroplethr_acs("B19301", "county", buckets=1, zoom=c("new york", "new jersey", "connecticut"))
+choroplethr_acs("B19301", "zip", buckets=1)
+install.packages("zipcode")
+choroplethr_acs("B19301", "zip", buckets=1)
+choroplethr_acs("B19301", "state", buckets=1)
+?acs.fetch
+acs.fetch(endyear=2013,table.number="B05010_002E")
+acs.fetch(endyear=2013,geography="county",table.number="B05010_002E")
+choroplethr_acs(""B05010_002E"", "state", buckets=1)
+choroplethr_acs("B05010_002E", "state", buckets=1)
+choroplethr_acs("B23013_003", "state", buckets=1)
+choroplethr_acs("B01003_001", "state", buckets=1)
+choroplethr_acs("B19301", "state", buckets=1)
+acs.lookup(table.number="B01001")
+Persons below poverty level, percent, 2009-2013
+acs.lookup(keyword="Persons below poverty level, percent, 2009-2013")
+acs.lookup(keyword="Persons below poverty level")
+?geo.make
+us <- geo.make(us)
+us <- geo.make(1)
+str(us)
+nj <- geo.make(state="NJ")
+str(nj)
+acs.fetch(geography=nj, table.number="B01003")
+acs.fetch(geography=nj, table.number="B01003_001")
+acs.fetch(geography=nj, table.number="B01003")
+nj <- geo.make(state="NJ", county="*")
+str(nj)
+nc <- geo.make(state="NC", county="*")
+acs.fetch(geography=nj, table.number="B01003")
+acs.fetch(geography=nc, table.number="B01003")
+acs.fetch(geography=nc, table.number="B05001")
+s1 <- acs.fetch(geography=nc, table.number="B05001")
+str(s1)
+s1 <- acs.fetch(geography=nc, table.number="B05001",endyear=2013)
+str(s1)
+s1 <- acs.fetch(geography=nc, table.number="B05001", col.names="pretty")
+str(s1)
+acs.lookup(keyword=c("Poverty","percent"))
+acs.lookup(keyword="Poverty")
+acs.lookup(keyword="Urdu")
+acs.lookup(keyword="Vietnamese")
+acs.lookup(keyword="Poverty")
+acs.lookup(keyword="poverty")
+acs.lookup(keyword="poverty level")
+poverty <- acs.lookup(keyword="poverty")
+str(poverty)
+poverty <- acs.lookup(keyword="100 percent poverty level")
+poverty <- acs.lookup(keyword="100 percent of the poverty level")
+str(poverty)
+poverty
+p1 <- acs.fetch(geography=nc, table.number="B06012", col.names="pretty")
+str(p1)
+p1$estimate
+estimate(p1)
+poverty <- acs.lookup(keyword=c("percent","poverty"))
+str(poverty)
+table.name(poverty)
+results(poverty)
+poverty <- acs.lookup(keyword=c("Below 100 percent of the poverty level","poverty"))
+results(poverty)
+poverty <- acs.lookup(keyword=c("Persons below poverty level","poverty"))
+poverty <- acs.lookup(keyword=c("below poverty level","poverty"))
+results(poverty)
+head(results(poverty))
+savehistory("~/GitHub/Poverty-in-NC/history.txt")
+p2 <- acs.fetch(geography=nc, table.number="DP05", col.names="pretty")
+str(p2)
+estimate(p2)
+p2 <- acs.fetch(geography=nc, table.number="B10059", col.names="pretty")
+str(p2)
+estimate(p2)
+head(results(p2))
+str(p2)
+head(estimate(p2))
+write.csv(estimate(p2),"povertyacsDatasets.csv")
+getwd()
+setwd("~/github/Poverty-in-NC")
+getwd()
+write.csv(estimate(poverty),"povertyacsDatasets.csv")
+write.csv(results(poverty),"povertyacsDatasets.csv")
+p2 <- acs.fetch(geography=nc, table.number="B17004", col.names="pretty")
+str(p2)
+write.csv(estimate(p2),"p2.csv")
+view(estimate(p2))
+View(estimate(p2))
+use <- read.csv("use.csv",stringsAsFactors=FALSE,skip=0)
+View(use)
+View(use)
+p2.2011 <- estimate(p2)
+names(p2.2011)
+p2.2011$names
+str(p2.2011)
+p2.2011[,2]
+pov201 <- p2.2011[,1:3]
+pov2011 <- p2.2011[,1:3]
+str(pov2011)
+pov2011 <- data.frame(p2.2011[,1:3])
+str(pov2011)
+pov_perc <- pov2011[,2]/pov2011[,3]
+pov_perc <- pov2011[,1]/pov2011[,2]
+pov_perc
+use[,1]
+View(use)
+View(use)
+View(use)
+cbind(pov_perc,use[,1:3])
+p3<- cbind(pov_perc,use[,1:2],pov2011)
+View(`p3`)
+View(`p3`)
+View(pov201)
+View(results(poverty))
+View(`p3`)
+View(`p3`)
+pfamily <- acs.fetch(geography=nc, table.number="B17010", col.names="pretty")
+str(pfamily)
+head(estimate(pfamily))
+write.csv(estimate(pfamily),"pfamily.csv")
+save.image()
+pfamily <- acs.fetch(geography=nc, table.number="B17010", col.names="pretty",endyear=2010)
+str(pfamily)
+head(estimate(pfamily))
+write.csv(estimate(pfamily),"pfamily.csv")
+row.names(pfamily)
+str(pfamily)
+row.names(estimate(pfamily))
+counties <- row.names(estimate(pfamily))
+df <- cbind(c(counties,pov_perc))
+str(df)
+df <- cbind(counties,pov_perc)
+str(df)
+df <- data.frame(cbind(counties,pov_perc))
+str(df)
+df[,2] <- as.numeric(df[,2])
+str(df)
+str(pov_perc)
+pfamily[,1]
+str(df)
+str(pfamily)
+pfamily[,1]
+pfamily[,2]
+estimate(pfamily[,2])
+pov_perc <- estimate(pfamily[,2)/estimate(pfamily[,1])
+pov_perc <- estimate(pfamily[,2])/estimate(pfamily[,1])
+df <- data.frame(cbind(counties,pov_perc))
+str(df)
+str(pov_perc)
+?cbind
+df <- data.frame(cbind(counties,pov_perc,stringsAsFactors = FALSE))
+str(df)
+df <- data.frame((counties,pov_perc,stringsAsFactors = FALSE))
+df <- data.frame(cbind(counties,pov_perc,stringsAsFactors = FALSE))
+df <- data.frame(cbind(counties,pov_perc),stringsAsFactors = FALSE)
+str(df)
+df[,2] <- as.numeric(df[,2])
+str(df)
+name(df[,2])<-"familyPovertyPerc"
+names(df[,2])<-"familyPovertyPerc"
+str(df)
+colnames(df[,2])<-"familyPovertyPerc"
+colnames(df)<- c("counties","familyPovertyPerc")
+str(df)
+head(df)
+choroplethr_acs("B01003", "state")
+choroplethr_acs("B17010", "state")
+?choroplethr
+?county_choroplethr
+install.packages("county_choroplethr")
+library(choroplethr)
+?county_choroplethr
+?county_choropleth
+colnames(df)<- c("region","value")
+county_choropleth(df, title = "", legend = "", buckets = 7, zoom = NULL)
+county.map
+data(df_pop_county)
+str(df_pop_county)
+county_choropleth(df_pop_county, title="US 2012 County Population Estimates", legend="Population")
+?county.map
+data(county.map)
+ggplot(county.map, aes(long, lat, group=group)) + geom_polygon()
+library(ggplot2)
+ggplot(county.map, aes(long, lat, group=group)) + geom_polygon()
+ggplot(county.map, aes(long, lat, group=group)) + geom_polygon()
+head(county.map)
+str(county.map)
+library(choroplethrMaps)
+?county.regions
+data(county.regions)
+head(county.regions)
+ncCounties <- county.regions[,county.regions$state.abb=="NC"]
+ncCounties <- county.regions[county.regions$state.abb=="NC"]
+county.regions$state.abb=="NC"
+sum(county.regions$state.abb=="NC")
+ncCounties <- county.regions[county.regions$state.abb=="NC",]
+head(ncCounties)
+str(nc)
+str(ncCounties)
+df <- data.frame(cbind(ncCounties$region,pov_perc),stringsAsFactors = FALSE)
+head(df)
+colnames(df)<- c("region","value")
+head(df)
+?county_choropleth
+county_choropleth(df)
+?state.regions
+county_choropleth(df,ZOOM="north carolina")
+county_choropleth(df,zoom="north carolina")
+savehistory("~/GitHub/Poverty-in-NC/history2.txt")
